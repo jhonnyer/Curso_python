@@ -1,0 +1,17 @@
+narchivo=input("ingrese el nombre del archivo: ")
+try:
+	man_a=open(narchivo)
+except:
+	print("Nombre de archivo no es valido")
+)
+	while narchivo==-1:
+		exit()
+contador=0
+for linea in man_a:
+	linea=linea.rstrip()
+	if linea.find("X-DSPAM-Confidence:")==-1:continue
+	contador=contador+1	
+	print(linea)
+print("El numero de lineas con spam es: ",contador)
+print("El valor medio  de lineas con spam es: ",(contador/2))
+	

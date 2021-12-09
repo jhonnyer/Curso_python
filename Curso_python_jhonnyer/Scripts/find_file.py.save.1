@@ -1,0 +1,11 @@
+	narchivo=input("Ingresa el nombre del archivo: ")
+try:
+	man_a = open(narchivo)
+except:
+	print("nombre archivo no valido")
+	
+		
+for linea in man_a:
+	linea = linea.rstrip()
+	if linea.find('@uct.ac.za') == -1: continue
+	print(linea)

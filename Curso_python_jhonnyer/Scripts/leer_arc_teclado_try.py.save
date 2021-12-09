@@ -1,0 +1,8 @@
+narchivo = input('Ingresa un nombre de archivo: ')
+try:
+	man_a = open(narchivo)
+)
+except:
+	print('No se puede abrir el archivo:', narchivo)
+	exit()
+
